@@ -1,0 +1,109 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    padding: 15px 30px;
+    height: 80px;
+    align-items: center;
+}
+.logo{
+    height: 30px;
+}
+.nav{
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+a:hover{
+    color: red;
+}
+
+.info-btn{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+}
+.info-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.mavzu{
+    display: flex;
+    justify-content: center;
+}
+
+.mavzu-text{
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+    background-color: rgb(169, 168, 168);
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.mavzu-text:hover{
+    color: white;
+    background-color: red;
+}
+
+
+.card-contanier{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+    top: 378px;
+    left: 95px;
+    border-radius: 20px;
+    background-color: #ddd;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card:hover{
+    background-color: blue;
+    color: white;
+}
+
+.card-rasm{
+    width: 350px;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-button{
+    background-color: grey;
+    padding: 8px;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.card-button:hover{
+    background-color: red;
+    border: 2px solid yellowgreen
+}
